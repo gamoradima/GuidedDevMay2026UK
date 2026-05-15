@@ -1,7 +1,7 @@
 = MetaData.Schema.UId "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe"
 = MetaData.Schema.A2 "UsrYacht"
 = MetaData.Schema.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
-= MetaData.Schema.B6 "5530927f-22ea-e7c9-4ccf-506d3a6c2ed2"
+= MetaData.Schema.B6 "173f071d-c2d3-4503-90a8-737a838fce07"
 = MetaData.Schema.EG1.UId "35ed072d-b64b-48d9-a321-be185b27409b"
 = MetaData.Schema.EG1.A2 "UsrYachtEventsProcess"
 = MetaData.Schema.EG1.A5 "6f71e54c-1960-40c9-94f6-073fd67699ab"
@@ -13,7 +13,6 @@
 = MetaData.Schema.EG1.BK37.A4 "bb4d6607-026b-4b27-b640-8f5c77c1e89d"
 = MetaData.Schema.EG1.BK3 []
 = MetaData.Schema.EG1.BK4 []
-+ MetaData.Schema.EG1.Labels []
 = MetaData.Schema.D8 "1bab9dcf-17d5-49f8-9536-8e0064f1dce0"
 + MetaData.Schema.D29 "null"
 + MetaData.Schema.D30 "null"
@@ -23,26 +22,149 @@
   "UId": "6c5b1ec5-e534-4861-b31f-0e5b57d2462d",
   "A2": "UsrName",
   "A3": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
-  "A4": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe", 
+  "A4": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
   "A5": "6f71e54c-1960-40c9-94f6-073fd67699ab",
   "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
   "E2": 1,
   "E5": false
 }
-~ MetaData.Schema.D2 ["ae0e45ca-c495-4fe7-a39d-3ab7278e1617","e80190a5-03b2-4095-90f7-a193a960adee","ebf6bb93-8aa6-4a01-900d-c6ea67affe21","9928edec-4272-425a-93bb-48743fee4b04","3015559e-cbc6-406a-88af-07f7930be832","3fabd836-6a53-4d8d-9069-6df88d9dae1e","6c5b1ec5-e534-4861-b31f-0e5b57d2462d"]
++ MetaData.Schema.D2 {
+  "UId": "bcf52b24-d7c6-ad0a-2665-f22a6b0d831c",
+  "A2": "UsrPrice",
+  "A3": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A4": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A5": "e2ad8e1f-6cc3-4d2d-87ba-53baf5c51e9d",
+  "S2": "5cc8060d-6d10-4773-89fc-8c12d6f659a6",
+  "E12": {
+    "FB1": 1,
+    "FB2": "500"
+  }
+}
++ MetaData.Schema.D2 {
+  "UId": "c89d0dc7-5a41-f9c3-2b77-25edde28fc1f",
+  "A2": "UsrComment",
+  "A3": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A4": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A5": "e2ad8e1f-6cc3-4d2d-87ba-53baf5c51e9d",
+  "S2": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd",
+  "E12": {
+    "FB1": 1,
+    "FB2": "test"
+  }
+}
++ MetaData.Schema.D2 {
+  "UId": "dcfec683-00a0-2d99-726b-dce8923650bf",
+  "A2": "UsrManager",
+  "A3": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A4": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A5": "e2ad8e1f-6cc3-4d2d-87ba-53baf5c51e9d",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+  "E6": true,
+  "E12": {
+    "FB1": 3,
+    "FB2": "4f367ca9-549b-4a1a-b64e-a40123f52ac0"
+  },
+  "E17": "UsrManagerId",
+  "E18": "UsrManagerName"
+}
++ MetaData.Schema.D2 {
+  "UId": "b85fd38a-1c52-546d-9ee7-38be402f2d1c",
+  "A2": "UsrPassengersCount",
+  "A3": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A4": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A5": "e2ad8e1f-6cc3-4d2d-87ba-53baf5c51e9d",
+  "S2": "6b6b74e2-820d-490e-a017-2b73d4ccf2b0"
+}
++ MetaData.Schema.D2 {
+  "UId": "82ca6ab6-1c92-01f7-a568-1b6d04f64edd",
+  "A2": "UsrStatus",
+  "A3": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A4": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A5": "e2ad8e1f-6cc3-4d2d-87ba-53baf5c51e9d",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "2dda621a-6dd7-4f96-ae52-77af832d8c90",
+  "E6": true,
+  "E20": true,
+  "E12": {
+    "FB1": 1,
+    "FB2": "8ee0c0eb-e120-43d4-8f4c-5621bd48038b"
+  },
+  "E17": "UsrStatusId",
+  "E18": "UsrStatusName"
+}
++ MetaData.Schema.D2 {
+  "UId": "bba4d946-71a9-f317-598a-17a5553679a4",
+  "A2": "UsrDriveType",
+  "A3": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A4": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A5": "e2ad8e1f-6cc3-4d2d-87ba-53baf5c51e9d",
+  "S2": "b295071f-7ea9-4e62-8d1a-919bf3732ff2",
+  "S4": "a63a8fde-3420-45a4-961b-a3629663e390",
+  "E6": true,
+  "E20": true,
+  "E12": {
+    "FB1": 1,
+    "FB2": "5c18aca0-2f97-4a77-b04a-7d2ad33ce67a"
+  },
+  "E17": "UsrDriveTypeId",
+  "E18": "UsrDriveTypeName"
+}
++ MetaData.Schema.D2 {
+  "UId": "4074cd7e-832b-80c3-daaf-643374668f14",
+  "A2": "UsrNumber",
+  "A3": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A4": "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe",
+  "A5": "e2ad8e1f-6cc3-4d2d-87ba-53baf5c51e9d",
+  "S2": "325a73b8-0f47-44a0-8412-7606f78003ac",
+  "E5": false,
+  "E12": {
+    "FB1": 4,
+    "FB4": "Y-",
+    "FB5": 2
+  }
+}
+~ MetaData.Schema.D2 [
+  "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+  "e80190a5-03b2-4095-90f7-a193a960adee",
+  "ebf6bb93-8aa6-4a01-900d-c6ea67affe21",
+  "9928edec-4272-425a-93bb-48743fee4b04",
+  "3015559e-cbc6-406a-88af-07f7930be832",
+  "3fabd836-6a53-4d8d-9069-6df88d9dae1e",
+  "6c5b1ec5-e534-4861-b31f-0e5b57d2462d",
+  "bcf52b24-d7c6-ad0a-2665-f22a6b0d831c",
+  "c89d0dc7-5a41-f9c3-2b77-25edde28fc1f",
+  "dcfec683-00a0-2d99-726b-dce8923650bf",
+  "b85fd38a-1c52-546d-9ee7-38be402f2d1c",
+  "82ca6ab6-1c92-01f7-a568-1b6d04f64edd",
+  "bba4d946-71a9-f317-598a-17a5553679a4",
+  "4074cd7e-832b-80c3-daaf-643374668f14"
+]
 = MetaData.Schema.D20.A2 "UsrYachtEvents"
++ MetaData.Schema.D20.FA1 false
++ MetaData.Schema.D20.FA2 false
++ MetaData.Schema.D20.FA3 false
+= MetaData.Schema.D20.FA4 false
+= MetaData.Schema.D20.FA5 false
+= MetaData.Schema.D20.FA6 false
+= MetaData.Schema.D20.FA7 false
++ MetaData.Schema.D20.FA8 false
++ MetaData.Schema.D20.FA9 false
++ MetaData.Schema.D20.FA10 false
+= MetaData.Schema.D20.FA11 false
+= MetaData.Schema.D20.FA12 false
++ MetaData.Schema.D20.FA16 false
++ MetaData.Schema.D20.FA13 false
++ MetaData.Schema.D20.FA14 false
+= MetaData.Schema.D20.FA15 false
++ MetaData.Schema.D20.FA17 false
+= MetaData.Schema.D36.A3 "ab0cf53f-9f10-4fca-9bb3-17e91a429bbe"
+= MetaData.Schema.D36.BS1 false
 - MetaData.Schema.EG1.B6
 - MetaData.Schema.EG1.BK29
 - MetaData.Schema.EG1.BK30
 - MetaData.Schema.D1
 - MetaData.Schema.D20.A5
-- MetaData.Schema.D20.FA4
-- MetaData.Schema.D20.FA5
-- MetaData.Schema.D20.FA6
-- MetaData.Schema.D20.FA7
-- MetaData.Schema.D20.FA11
-- MetaData.Schema.D20.FA12
-- MetaData.Schema.D20.FA15
 + MetaData.Schema.B7 false
 + MetaData.Schema.D2.["ae0e45ca-c495-4fe7-a39d-3ab7278e1617"].E16 false
 + MetaData.Schema.D2.["e80190a5-03b2-4095-90f7-a193a960adee"].E16 false
